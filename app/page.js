@@ -188,6 +188,7 @@ export default function WeddingOfficiantWebsite() {
             </p>
             <p className="mt-4 text-lg leading-8 text-slate-600">
               Whether the setting is a beach, private residence, resort, dockside location, or intimate gathering place in the Upper Keys, the goal is the same: to create a meaningful wedding ceremony that feels authentic and memorable.
+<img src="/photo.jpeg" />
             </p>
           </div>
 
