@@ -90,6 +90,7 @@ export default function WeddingOfficiantWebsite() {
             <h2 className="max-w-xl text-4xl font-bold tracking-tight md:text-6xl">
               Meaningful wedding ceremonies for Key Largo, Islamorada, and Tavernier.
 <img src="/photo.jpeg" />
+<img src="/photo1.jpeg" />
             </h2>
             <p className="mt-6 max-w-xl text-lg leading-8 text-slate-600">
               Beach weddings, elopements, and intimate ceremonies in the Florida Keys. New Day Weddings provides warm, personal officiating for couples who want a beautiful ceremony in the Florida Keys. Led by Joseph Danko, ceremonies are flexible in style while remaining primarily Christian for couples who want faith thoughtfully included.
