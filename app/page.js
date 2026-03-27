@@ -27,12 +27,14 @@ export default function WeddingOfficiantWebsite() {
     {
       title: "Standard Ceremony",
       price: "$400",
-      details: "Ideal for simple weddings and intimate ceremonies with a polished, personal officiating experience.",
+      details:
+        "Ideal for simple weddings and intimate ceremonies with a polished, personal officiating experience.",
     },
     {
       title: "Custom Ceremony",
       price: "$450",
-      details: "Best for weddings needing more customization, added ceremony elements, or more detailed planning.",
+      details:
+        "Best for weddings needing more customization, added ceremony elements, or more detailed planning.",
     },
   ];
 
@@ -89,11 +91,11 @@ export default function WeddingOfficiantWebsite() {
               Meaningful wedding ceremonies for Key Largo, Islamorada, and Tavernier.
             </h2>
             <p className="mt-6 max-w-xl text-lg leading-8 text-slate-600">
-              New Day Weddings provides warm, personal officiating for couples who want a beautiful ceremony in the Florida Keys. Led by Joseph Danko, ceremonies are flexible in style while remaining primarily Christian for couples who want faith thoughtfully included.
+              Beach weddings, elopements, and intimate ceremonies in the Florida Keys. New Day Weddings provides warm, personal officiating for couples who want a beautiful ceremony in the Florida Keys. Led by Joseph Danko, ceremonies are flexible in style while remaining primarily Christian for couples who want faith thoughtfully included.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <a
-                href="#contact"
+                href="mailto:newdayweddings@icloud.com?subject=Wedding%20Inquiry"
                 className="rounded-2xl bg-slate-900 px-6 py-3 text-sm font-semibold text-white shadow-lg transition hover:-translate-y-0.5"
               >
                 Check Availability
@@ -256,35 +258,15 @@ export default function WeddingOfficiantWebsite() {
             </div>
 
             <div className="rounded-[32px] border border-slate-200 bg-white p-8 shadow-sm">
-              <h4 className="text-xl font-semibold">Inquiry form</h4>
-              <form className="mt-6 grid gap-4">
-                <input
-                  className="rounded-2xl border border-slate-300 bg-white px-4 py-3 outline-none ring-0 transition focus:border-slate-500"
-                  placeholder="Your name"
-                />
-                <input
-                  className="rounded-2xl border border-slate-300 bg-white px-4 py-3 outline-none ring-0 transition focus:border-slate-500"
-                  placeholder="Email address"
-                />
-                <input
-                  className="rounded-2xl border border-slate-300 bg-white px-4 py-3 outline-none ring-0 transition focus:border-slate-500"
-                  placeholder="Wedding date"
-                />
-                <input
-                  className="rounded-2xl border border-slate-300 bg-white px-4 py-3 outline-none ring-0 transition focus:border-slate-500"
-                  placeholder="Venue or location"
-                />
-                <textarea
-                  className="min-h-[140px] rounded-2xl border border-slate-300 bg-white px-4 py-3 outline-none ring-0 transition focus:border-slate-500"
-                  placeholder="Tell us a little about the ceremony you want"
-                />
-                <button
-                  type="button"
-                  className="rounded-2xl bg-slate-900 px-6 py-3 text-sm font-semibold text-white shadow-lg transition hover:-translate-y-0.5"
+              <h4 className="text-xl font-semibold">Contact</h4>
+              <div className="mt-6">
+                <a
+                  href="mailto:newdayweddings@icloud.com?subject=Wedding%20Inquiry"
+                  className="rounded-2xl bg-slate-900 px-6 py-3 text-sm font-semibold text-white shadow-lg transition hover:-translate-y-0.5 inline-block"
                 >
-                  Send Inquiry
-                </button>
-              </form>
+                  Email to Check Availability
+                </a>
+              </div>
             </div>
           </div>
         </div>
